@@ -25,7 +25,12 @@ git push -u origin main
 
 4. Tutorial from [https://www.youtube.com/watch?v=cbASjoZZGIw] for basic set of routes
 
+5. Containerise with Docker. In future can test disabling venv to disable python only dependencies and leave other structures active in container?
+
 ## Tips
 
-1. FastApi is typed e.g. I can require id: int
+1. "FastApi is typed e.g. I can require id: int" - information given by tutor but it shows in documentation for pydantic.basemodel
+2. pydantic basemodel has class methods that create, manipulate and validate instances of the Model class.
+
+
 
